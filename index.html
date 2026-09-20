@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="VITTA PET — Cuidado veterinário que começa antes do problema."
+    />
+
+    <title>VITTA PET | Cuidado que começa antes do problema</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+      <div class="container navbar-container">
+        <!-- LOGO -->
+        <a href="#inicio" class="logo" aria-label="Página inicial VITTA PET">
+          <span class="logo-text">VITTA PET</span>
+        </a>
+
+        <!-- NAVEGAÇÃO -->
+        <nav class="nav-menu" aria-label="Navegação principal">
+          <a href="#inicio" class="nav-link active"> Início </a>
+
+          <a href="#sobre" class="nav-link"> Sobre </a>
+
+          <a href="#servicos" class="nav-link"> Serviços </a>
+
+          <a href="#contato" class="nav-link"> Contato </a>
+        </nav>
+
+        <!-- AÇÃO -->
+        <a href="#contato" class="nav-button"> Entre em contato </a>
+      </div>
+    </header>
+
+    <!-- ================= CONTEÚDO PRINCIPAL ================= -->
+
+    <main>
+      <!-- ================= HERO ================= -->
+
+      <section class="hero" id="inicio">
+        <div class="container hero-container">
+          <!-- CONTEÚDO DA HERO -->
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span>Cuidado</span>
+              que começa antes do problema.
+            </h1>
+
+            <p class="hero-description">
+              Check-ups e cuidados veterinários para acompanhar a saúde do seu
+              pet de perto, com atenção em cada detalhe.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#servicos" class="btn btn-primary">
+                Conheça nossos serviços
+                <span aria-hidden="true">→</span>
+              </a>
+
+              <a href="#sobre" class="btn btn-secondary"> Saiba mais </a>
+            </div>
+          </div>
+
+          <!-- IMAGEM DA HERO -->
+          <div class="hero-image">
+            <img
+              src="./images/cachorro.png"
+              alt="Cachorro recebendo cuidados veterinários"
+            />
+          </div>
+        </div>
+        <div class="hero-wave">
+          <svg
+            viewBox="0 0 1440 140"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M0,70 C240,150 480,0 720,65 C960,130 1200,25 1440,70 L1440,140 L0,140 Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+      <section class="about-section" id="sobre">
+        <div class="container about-container">
+          <div class="about-image">
+            <img
+              src="./images/cachorro_e_gato_com_roupas_de_veterinario.png"
+              alt="Veterinário examinando um cachorro"
+            />
+          </div>
+
+          <div class="about-content">
+            <h2 class="about-title">
+              Cuidar também
+              <span>é acompanhar.</span>
+            </h2>
+
+            <p class="about-text">
+              Na VITTA PET, acreditamos que cuidar da saúde do seu pet vai além
+              de tratar quando algo acontece. É observar, acompanhar e entender
+              o que ele precisa em cada momento.
+            </p>
+
+            <p class="about-text">
+              Por isso, nosso atendimento busca unir prevenção, atenção aos
+              detalhes e proximidade com quem conhece melhor o seu pet: você.
+            </p>
+
+            <a href="#contato" class="btn btn-primary">
+              Conheça a VITTA PET
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section" id="servicos">
+        <div class="container">
+          <!-- CABEÇALHO -->
+          <div class="services-header">
+            <h2>
+              Tudo o que seu pet
+              <span>precisa para viver bem.</span>
+            </h2>
+
+            <p>
+              Do acompanhamento preventivo aos cuidados do dia a dia, oferecemos
+              serviços pensados para diferentes fases e necessidades.
+            </p>
+          </div>
+
+          <!-- BENTO GRID -->
+          <div class="services-grid">
+            <!-- CHECK-UP -->
+            <article class="service-card service-card-large service-checkup">
+              <img
+                src="./images/checkup_em_cachorro.png"
+                alt="Veterinário examinando um cachorro"
+              />
+
+              <div class="service-overlay"></div>
+
+              <div class="service-content">
+                <span class="service-number">01</span>
+
+                <div>
+                  <h3>Check-up</h3>
+
+                  <p>
+                    Acompanhamento para entender como seu pet está e perceber
+                    alterações antes que elas avancem.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!-- VACINAÇÃO -->
+            <article class="service-card service-vaccination">
+              <img
+                src="./images/vacinacao_em_gato.png"
+                alt="gato recebendo cuidados veterinários e tomando vacina"
+              />
+
+              <div class="service-content">
+                <span class="service-number">02</span>
+
+                <div>
+                  <h3>Vacinação</h3>
+
+                  <p>Proteção em dia para uma vida mais segura.</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- EXAMES -->
+            <article class="service-card service-exams">
+              <img
+                src="./images/veterinario_fazendo_exames_em_um_gato.png"
+                alt="veterinario fazendo exames em um gato"
+              />
+
+              <div class="service-content">
+                <span class="service-number">03</span>
+
+                <div>
+                  <h3>Exames</h3>
+
+                  <p>
+                    Avaliações que ajudam a entender melhor a saúde do seu pet.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <!-- BANHO E TOSA -->
+            <article class="service-card service-card-wide service-grooming">
+              <img
+                src="./images/cachorro_e_gato_tomando_banho.png"
+                alt="Cachorro recebendo banho e cuidados"
+              />
+
+              <div class="service-overlay"></div>
+
+              <div class="service-content">
+                <span class="service-number">04</span>
+
+                <div>
+                  <h3>Banho & Tosa</h3>
+
+                  <p>Higiene, conforto e cuidado em cada detalhe.</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- ACOMPANHAMENTO -->
+            <article class="service-card service-care">
+              <span class="service-number">05</span>
+
+              <div class="service-care-content">
+                <h3>
+                  Cuidado que
+                  <span>continua.</span>
+                </h3>
+
+                <p>
+                  Orientações para manter a saúde do seu pet também fora da
+                  clínica.
+                </p>
+
+                <a href="#contato">
+                  Fale com a VITTA PET
+                  <span>→</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="care-values">
+        <div class="container">
+          <section class="care-values">
+            <div class="container">
+              <div class="care-values-heading">
+                <h2>
+                  Um cuidado pensado
+                  <span>para cada pet.</span>
+                </h2>
+              </div>
+
+              <div class="care-values-grid">
+                <!-- COLUNA ESQUERDA -->
+
+                <div class="care-column care-left">
+                  <article class="value-card value-card-1">
+                    <span class="value-number">01</span>
+
+                    <div>
+                      <h3>Atendimento individual</h3>
+
+                      <p>
+                        Cada pet possui necessidades diferentes. Por isso, cada
+                        atendimento é pensado de forma individual.
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="value-card value-card-2">
+                    <span class="value-number">02</span>
+
+                    <div>
+                      <h3>Foco em prevenção</h3>
+
+                      <p>
+                        Acompanhar a saúde de perto ajuda a perceber mudanças
+                        antes que elas se tornem problemas.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- IMAGEM CENTRAL -->
+
+                <div class="care-center">
+                  <img
+                    src="./images/mulher_abraçando_um_cachorro.png"
+                    alt="Pet recebendo cuidados veterinários"
+                  />
+                </div>
+
+                <!-- COLUNA DIREITA -->
+
+                <div class="care-column care-right">
+                  <article class="value-card value-card-3">
+                    <span class="value-number">03</span>
+
+                    <div>
+                      <h3>Orientação para tutores</h3>
+
+                      <p>
+                        Você entende o que está acontecendo e como continuar os
+                        cuidados em casa.
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="value-card value-card-4">
+                    <span class="value-number">04</span>
+
+                    <div>
+                      <h3>Acompanhamento próximo</h3>
+
+                      <p>
+                        O cuidado continua mesmo depois que a consulta termina.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <hr class="section-divider" />
+
+      <section class="faq-section" id="faq">
+        <div class="container">
+          <div class="faq-header">
+            <h2>Perguntas <span>frequentes.</span></h2>
+          </div>
+
+          <div class="faq-layout">
+            <!-- PERGUNTAS -->
+            <div class="faq-list">
+              <details class="faq-item">
+                <summary>
+                  <span class="faq-number"> </span>
+                  <span class="faq-question">
+                    Preciso agendar antes de levar meu pet?
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+
+                <div class="faq-answer">
+                  <p>
+                    Sim. O agendamento ajuda nossa equipe a organizar os
+                    horários e oferecer um atendimento mais tranquilo para você
+                    e seu pet.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  <span class="faq-number"> </span>
+                  <span class="faq-question">
+                    Quais vacinas vocês aplicam?
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+
+                <div class="faq-answer">
+                  <p>
+                    Trabalhamos com as principais vacinas para cães e gatos.
+                    Durante a consulta, avaliamos a necessidade de cada pet e
+                    orientamos sobre o protocolo adequado.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  <span class="faq-number"> </span>
+                  <span class="faq-question">
+                    Vocês atendem cães e gatos?
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+
+                <div class="faq-answer">
+                  <p>
+                    Sim. Nossa equipe está preparada para atender cães e gatos
+                    com cuidados de acordo com as necessidades de cada animal.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  <span class="faq-number"> </span>
+                  <span class="faq-question">
+                    Como funciona o banho e tosa?
+                  </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+
+                <div class="faq-answer">
+                  <p>
+                    O serviço é realizado com atenção ao conforto e às
+                    características de cada pet, incluindo cuidados específicos
+                    conforme o tipo de pelagem.
+                  </p>
+                </div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  <span class="faq-number"> </span>
+                  <span class="faq-question"> Vocês realizam exames? </span>
+                  <span class="faq-icon">+</span>
+                </summary>
+
+                <div class="faq-answer">
+                  <p>
+                    Sim. Quando necessário, podemos solicitar e encaminhar
+                    exames para auxiliar na avaliação e acompanhamento da saúde
+                    do seu pet.
+                  </p>
+                </div>
+              </details>
+            </div>
+
+            <!-- IMAGEM -->
+            <div class="faq-image">
+              <div class="faq-image-bg"></div>
+
+              <img
+                src="./images/cachoorro_em_duvida.png"
+                alt="cachoorro em duvida"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================================
+     CTA FINAL
+======================================== -->
+
+      <section class="final-cta">
+        <!-- PATINHAS DECORATIVAS -->
+
+        <svg class="paw paw-1" viewBox="0 0 100 100" aria-hidden="true">
+          <path
+            d="M50 48
+            C39 48 30 57 30 68
+            C30 79 39 86 50 86
+            C61 86 70 79 70 68
+            C70 57 61 48 50 48Z
+
+            M25 42
+            C17 42 12 35 14 27
+            C16 20 22 17 28 20
+            C35 23 36 31 33 37
+            C31 40 28 42 25 42Z
+
+            M75 42
+            C67 42 64 35 67 28
+            C69 21 76 18 82 21
+            C88 25 88 32 85 37
+            C82 41 79 42 75 42Z
+
+            M42 27
+            C35 25 32 18 35 11
+            C38 4 45 2 51 6
+            C57 10 57 18 54 23
+            C51 27 47 28 42 27Z
+
+            M59 27
+            C53 23 54 15 59 9
+            C64 4 71 5 75 11
+            C79 17 76 24 70 27
+            C66 29 62 29 59 27Z"
+            fill="var(--yellow-color)"
+          />
+        </svg>
+
+        <svg class="paw paw-2" viewBox="0 0 100 100" aria-hidden="true">
+          <path
+            d="M50 48
+            C39 48 30 57 30 68
+            C30 79 39 86 50 86
+            C61 86 70 79 70 68
+            C70 57 61 48 50 48Z
+            M25 42
+            C17 42 12 35 14 27
+            C16 20 22 17 28 20
+            C35 23 36 31 33 37
+            C31 40 28 42 25 42Z
+            M75 42
+            C67 42 64 35 67 28
+            C69 21 76 18 82 21
+            C88 25 88 32 85 37
+            C82 41 79 42 75 42Z
+            M42 27
+            C35 25 32 18 35 11
+            C38 4 45 2 51 6
+            C57 10 57 18 54 23
+            C51 27 47 28 42 27Z
+            M59 27
+            C53 23 54 15 59 9
+            C64 4 71 5 75 11
+            C79 17 76 24 70 27
+            C66 29 62 29 59 27Z"
+            fill="var(--yellow-color)"
+          />
+        </svg>
+
+        <svg class="paw paw-3" viewBox="0 0 100 100" aria-hidden="true">
+          <path
+            d="M50 48
+            C39 48 30 57 30 68
+            C30 79 39 86 50 86
+            C61 86 70 79 70 68
+            C70 57 61 48 50 48Z
+            M25 42
+            C17 42 12 35 14 27
+            C16 20 22 17 28 20
+            C35 23 36 31 33 37
+            C31 40 28 42 25 42Z
+            M75 42
+            C67 42 64 35 67 28
+            C69 21 76 18 82 21
+            C88 25 88 32 85 37
+            C82 41 79 42 75 42Z
+            M42 27
+            C35 25 32 18 35 11
+            C38 4 45 2 51 6
+            C57 10 57 18 54 23
+            C51 27 47 28 42 27Z
+            M59 27
+            C53 23 54 15 59 9
+            C64 4 71 5 75 11
+            C79 17 76 24 70 27
+            C66 29 62 29 59 27Z"
+            fill="var(--yellow-color)"
+          />
+        </svg>
+
+        <svg class="paw paw-4" viewBox="0 0 100 100" aria-hidden="true">
+          <path
+            d="M50 48
+            C39 48 30 57 30 68
+            C30 79 39 86 50 86
+            C61 86 70 79 70 68
+            C70 57 61 48 50 48Z
+            M25 42
+            C17 42 12 35 14 27
+            C16 20 22 17 28 20
+            C35 23 36 31 33 37
+            C31 40 28 42 25 42Z
+            M75 42
+            C67 42 64 35 67 28
+            C69 21 76 18 82 21
+            C88 25 88 32 85 37
+            C82 41 79 42 75 42Z
+            M42 27
+            C35 25 32 18 35 11
+            C38 4 45 2 51 6
+            C57 10 57 18 54 23
+            C51 27 47 28 42 27Z
+            M59 27
+            C53 23 54 15 59 9
+            C64 4 71 5 75 11
+            C79 17 76 24 70 27
+            C66 29 62 29 59 27Z"
+            fill="var(--yellow-color)"
+          />
+        </svg>
+
+        <div class="container">
+          <div class="final-cta-card">
+            <!-- CONTEÚDO -->
+
+            <div class="final-cta-content">
+              <span class="final-cta-label"> VAMOS CUIDAR DO SEU PET? </span>
+
+              <h2>
+                Agende um atendimento
+                <span>hoje mesmo.</span>
+              </h2>
+
+              <p>
+                Cuide da saúde do seu pet com atenção, carinho e acompanhamento
+                de verdade.
+              </p>
+
+              <a href="#contato" class="final-cta-button">
+                Fale com a gente
+                <span>→</span>
+              </a>
+            </div>
+
+            <!-- IMAGEM -->
+
+            <div class="final-cta-image">
+              <img
+                src="./images/cachorro-cta.png"
+                alt="Cachorro da Vitta Pet"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========================================
+     FOOTER
+======================================== -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <!-- MARCA -->
+
+          <div class="footer-brand">
+            <a href="#" class="footer-logo"> VITTA PET </a>
+
+            <p>Cuidado que começa antes do problema.</p>
+          </div>
+
+          <!-- NAVEGAÇÃO -->
+
+          <div class="footer-column">
+            <span class="footer-title"> Navegação </span>
+
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contato">Contato</a>
+          </div>
+
+          <!-- CONTATO -->
+
+          <div class="footer-column">
+            <span class="footer-title"> Atendimento </span>
+
+            <a href="#"> WhatsApp </a>
+
+            <a href="#"> Instagram </a>
+
+            <span class="footer-info"> Monte Carmelo — MG </span>
+          </div>
+
+          <!-- CTA PEQUENO -->
+
+          <div class="footer-contact">
+            <span class="footer-title"> Vamos conversar? </span>
+
+            <a href="#contato" class="footer-button">
+              Entre em contato
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- LINHA -->
+
+        <div class="footer-bottom">
+          <p>© 2026 Vitta Pet. Todos os direitos reservados.</p>
+
+          <p>
+            Site produzido por
+            <a href="#" class="novastack-link"> Nova Stack </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
